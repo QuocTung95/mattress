@@ -1,0 +1,288 @@
+[
+  {
+    "id": "dem-cao-cap-1",
+    "category": "dem-cao-cap",
+    "name": "Đệm Cao Su Thiên Nhiên Amani Luxury",
+    "tag": "HOT",
+    "shortDescription": "Đệm cao su thiên nhiên 100% nhập khẩu nguyên tấm, thiết kế 7 vùng nâng đỡ tối ưu cột sống và khớp xương.",
+    "features": [
+      "100% cao su thiên nhiên hữu cơ",
+      "Cấu trúc bong bóng hở thoáng khí tối đa",
+      "Nâng đỡ chuyên sâu 7 vùng cơ thể",
+      "Kháng khuẩn, chống nấm mốc tự nhiên"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=800&q=80",
+    "imagesGallery": [
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80"
+    ],
+    "price": "Liên hệ tư vấn"
+  },
+  {
+    "id": "dem-cao-cap-2",
+    "category": "dem-cao-cap",
+    "name": "Đệm Hybrid Latex-Foam Royal Suite",
+    "tag": "NEW",
+    "shortDescription": "Sự kết hợp hoàn hảo giữa lò xo túi độc lập siêu nhỏ và lớp cao su thiên nhiên dày 5cm nâng đỡ êm ái chuẩn khách sạn 5 sao.",
+    "features": [
+      "Lò xo túi độc lập Pocket Spring giảm chấn",
+      "Topper cao su thiên nhiên dày 5cm êm ái",
+      "Vải bọc gấm dệt kim kháng khuẩn tencel",
+      "Giảm lan truyền xung động 100% khi trở mình"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+    "imagesGallery": [
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=800&q=80"
+    ],
+    "price": "Liên hệ tư vấn"
+  },
+  {
+    "id": "dem-cao-cap-3",
+    "category": "dem-cao-cap",
+    "name": "Đệm Foam Massage Trị Liệu Senso",
+    "tag": null,
+    "shortDescription": "Lớp memory foam hoạt tính tỷ trọng cao kết hợp các hạt gel làm mát, mang đến giấc ngủ êm sâu thư giãn cột sống.",
+    "features": [
+      "Memory foam hạt gel làm mát thông minh",
+      "Thiết kế lượn sóng massage vùng vai gáy",
+      "Áo nệm sợi tre bamboo siêu mát tự nhiên",
+      "Bảo hành chính hãng 10 năm xẹp lún"
+    ],
+    "mainImage": "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80",
+    "imagesGallery": [
+      "https://images.unsplash.com/photo-1505693395321-883724634266?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1617806118233-18e1db207f62?auto=format&fit=crop&w=800&q=80"
+    ],
+    "price": "Liên hệ tư vấn"
+  },
+  {
+    "id": "dem-gia-dinh-1",
+    "category": "dem-gia-dinh",
+    "name": "Đệm Bông Ép Kháng Khuẩn Organic",
+    "tag": "HOT",
+    "shortDescription": "Đệm bông ép chất lượng cao, thiết kế gấp 3 tiện lợi, sợi bông kháng khuẩn tối ưu cho sức khoẻ gia đình.",
+    "features": [
+      "Sợi bông ép nhiệt tinh khiết 100%",
+      "Áo đệm vải cotton kháng khuẩn an toàn",
+      "Thiết kế gấp 3 tiện lợi tiết kiệm không gian",
+      "Độ cứng vừa phải hỗ trợ cột sống trẻ nhỏ"
+    ],
+    "mainImage": "/images/dem-gia-dinh-1.png",
+    "imagesGallery": [
+      "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80"
+    ],
+    "price": "Liên hệ tư vấn"
+  },
+  {
+    "id": "dem-gia-dinh-2",
+    "category": "dem-gia-dinh",
+    "name": "Đệm Foam Orthopedic Giấc Ngủ Êm",
+    "tag": null,
+    "shortDescription": "Nệm foam nâng đỡ cơ thể đa vùng, giảm đau lưng mỏi vai gáy hiệu quả với độ bền vượt trội.",
+    "features": [
+      "Foam tỷ trọng cao nâng đỡ xương khớp đa vùng",
+      "Công nghệ tản nhiệt thoáng mát suốt đêm",
+      "Kháng khuẩn, thân thiện với làn da nhạy cảm",
+      "Áo nệm tháo rời dễ dàng vệ sinh"
+    ],
+    "mainImage": "/images/dem-gia-dinh-2.png",
+    "imagesGallery": [
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80"
+    ],
+    "price": "Liên hệ tư vấn"
+  },
+  {
+    "id": "dem-gia-dinh-3",
+    "category": "dem-gia-dinh",
+    "name": "Đệm Hybrid Latex-Foam Đa Tầng",
+    "tag": "NEW",
+    "shortDescription": "Sự kết hợp giữa foam dẻo dai và lớp mặt cao su thiên nhiên êm ái, mang lại trải nghiệm ngủ tuyệt vời với chi phí hợp lý.",
+    "features": [
+      "Mặt trên cao su thiên nhiên 2cm êm ái",
+      "Lõi foam đàn hồi hỗ trợ cột sống tối đa",
+      "Vải bọc dệt kim co giãn 4 chiều thoáng khí",
+      "Độ chịu lực cao bền bỉ theo năm tháng"
+    ],
+    "mainImage": "/images/dem-gia-dinh-3.png",
+    "imagesGallery": [
+      "https://images.unsplash.com/photo-1505693395321-883724634266?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1617806118233-18e1db207f62?auto=format&fit=crop&w=800&q=80"
+    ],
+    "price": "Liên hệ tư vấn"
+  },
+  {
+    "id": "ga-giuong-1",
+    "category": "ga-giuong",
+    "name": "Bộ Ga Giường Cotton Sateen Cao Cấp",
+    "tag": "HOT",
+    "shortDescription": "Chất liệu cotton sateen mềm mại, óng ả tự nhiên, mang lại cảm giác mát lạnh dễ chịu khi chạm vào.",
+    "features": [
+      "100% Cotton sateen dệt mật độ cao",
+      "Bề mặt láng mịn óng ả sang trọng",
+      "Thấm hút mồ hôi tối đa thoáng mát",
+      "Độ bền màu cao không xơ lông khi giặt"
+    ],
+    "mainImage": "/images/ga-giuong-1.png",
+    "imagesGallery": [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "price": "Liên hệ tư vấn"
+  },
+  {
+    "id": "ga-giuong-2",
+    "category": "ga-giuong",
+    "name": "Bộ Ga Chun Tencel Tự Nhiên",
+    "tag": "NEW",
+    "shortDescription": "Sợi xenlulozo tự nhiên từ gỗ bạch đàn cực kỳ lành tính, thoáng mát và mềm mướt như lụa.",
+    "features": [
+      "Chất liệu Tencel sinh học tự nhiên",
+      "Mát lịm phù hợp khí hậu mùa hè nóng nực",
+      "Kháng khuẩn thích hợp cho da nhạy cảm",
+      "Thân thiện môi trường phân huỷ sinh học"
+    ],
+    "mainImage": "/images/ga-giuong-2.png",
+    "imagesGallery": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80"
+    ],
+    "price": "Liên hệ tư vấn"
+  },
+  {
+    "id": "ga-giuong-3",
+    "category": "ga-giuong",
+    "name": "Bộ Chăn Ga Lụa Tơ Tằm Thượng Hạng",
+    "tag": null,
+    "shortDescription": "Sự xa hoa tối thượng từ lụa tơ tằm truyền thống Việt Nam, nâng niu làn da và mái tóc trong từng giấc ngủ.",
+    "features": [
+      "100% Lụa tơ tằm tự nhiên thượng hạng",
+      "Chống nhăn da và hạn chế rụng tóc khi ngủ",
+      "Điều hoà nhiệt độ thông minh đông ấm hè mát",
+      "Thiết kế thêu tay thủ công tinh tế sang trọng"
+    ],
+    "mainImage": "/images/ga-giuong-3.png",
+    "imagesGallery": [
+      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1617806118233-18e1db207f62?auto=format&fit=crop&w=800&q=80"
+    ],
+    "price": "Liên hệ tư vấn"
+  },
+  {
+    "id": "goi-1",
+    "category": "goi",
+    "name": "Gối Lông Vũ Tự Nhiên AMANI",
+    "tag": "HOT",
+    "shortDescription": "Gối lông vũ tự nhiên 100% siêu êm ái, bồng bềnh mang lại giấc ngủ thư thái bồng bềnh chuẩn resort.",
+    "features": [
+      "100% Lông vũ tự nhiên cao cấp khử trùng",
+      "Độ đàn hồi cao không xẹp lún",
+      "Vải bọc cotton chống thoát lông vũ",
+      "Nâng đỡ nhẹ nhàng nâng niu đốt sống cổ"
+    ],
+    "mainImage": "/images/goi-1.png",
+    "imagesGallery": [
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80"
+    ],
+    "price": "Liên hệ tư vấn"
+  },
+  {
+    "id": "goi-2",
+    "category": "goi",
+    "name": "Gối Cao Su Non Công Thái Học",
+    "tag": "NEW",
+    "shortDescription": "Thiết kế lượn sóng ôm sát đường cong cổ vai gáy, giải toả áp lực và ngăn ngừa đau mỏi cổ khi thức dậy.",
+    "features": [
+      "Memory Foam hoạt tính đàn hồi chậm",
+      "Thiết kế công thái học nâng đỡ vùng cổ",
+      "Vỏ gối thun lạnh co giãn thoáng mát",
+      "Ngăn ngừa đau mỏi vai gáy hiệu quả"
+    ],
+    "mainImage": "/images/goi-2.png",
+    "imagesGallery": [
+      "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80"
+    ],
+    "price": "Liên hệ tư vấn"
+  },
+  {
+    "id": "goi-3",
+    "category": "goi",
+    "name": "Gối Latex Cao Su Thiên Nhiên",
+    "tag": null,
+    "shortDescription": "Gối làm từ 100% mủ cao su thiên nhiên dẻo dai đàn hồi cực tốt, cấu trúc lỗ thông hơi tối ưu.",
+    "features": [
+      "100% Cao sau thiên nhiên nguyên chất",
+      "Hệ thống lỗ thông hơi kép thoáng mát",
+      "Kháng khuẩn tự nhiên, an toàn cho da",
+      "Độ đàn hồi vượt trội giữ form gối dài lâu"
+    ],
+    "mainImage": "/images/goi-3.png",
+    "imagesGallery": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1617806118233-18e1db207f62?auto=format&fit=crop&w=800&q=80"
+    ],
+    "price": "Liên hệ tư vấn"
+  },
+  {
+    "id": "phu-kien-1",
+    "category": "phu-kien",
+    "name": "Tấm Bảo Vệ Đệm Chống Thấm Quilted",
+    "tag": "HOT",
+    "shortDescription": "Bảo vệ đệm khỏi vết bẩn, nước và bụi mịn, thiết kế trần bông êm ái tăng thêm tuổi thọ đệm.",
+    "features": [
+      "Chất liệu trần bông Microfiber êm ái",
+      "Lớp chống thấm TPU ngăn nước tuyệt đối",
+      "Đai chun 4 góc cố định dễ lắp đặt",
+      "Giặt máy thoải mái không nhăn xù sợi vải"
+    ],
+    "mainImage": "/images/phu-kien-1.png",
+    "imagesGallery": [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80"
+    ],
+    "price": "Liên hệ tư vấn"
+  },
+  {
+    "id": "phu-kien-2",
+    "category": "phu-kien",
+    "name": "Chăn Len Chun Trang Trí Luxury",
+    "tag": "NEW",
+    "shortDescription": "Chăn len dệt chunky cao cấp tạo điểm nhấn ấm áp và sang trọng cho chiếc giường ngủ của bạn.",
+    "features": [
+      "Sợi len acrylic dệt chunky siêu mềm",
+      "Họa tiết dệt nổi tinh tế hợp thời trang",
+      "Màu sắc trung tính nhã nhặn dễ phối đồ",
+      "Giữ nhiệt nhẹ nhàng êm dịu cho cơ thể"
+    ],
+    "mainImage": "/images/phu-kien-2.png",
+    "imagesGallery": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80"
+    ],
+    "price": "Liên hệ tư vấn"
+  },
+  {
+    "id": "phu-kien-3",
+    "category": "phu-kien",
+    "name": "Bộ Tinh Dầu & Đèn Xông Aroma Thư Giãn",
+    "tag": null,
+    "shortDescription": "Liệu pháp hương thơm tự nhiên giúp giảm stress, làm dịu tâm trí và mang lại giấc ngủ ngon sâu.",
+    "features": [
+      "Tinh dầu oải hương nguyên chất nhập khẩu Pháp",
+      "Máy khuếch tán siêu âm phun sương êm ái",
+      "Chế độ hẹn giờ và đèn LED ngủ ấm áp",
+      "Thanh lọc nhẹ không khí tạo không gian thư giãn"
+    ],
+    "mainImage": "/images/phu-kien-3.png",
+    "imagesGallery": [
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=800&q=80"
+    ],
+    "price": "Liên hệ tư vấn"
+  }
+]
