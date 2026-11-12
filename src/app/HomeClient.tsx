@@ -11,7 +11,7 @@ import { Sparkles, ArrowRight, Bed, Star, ShieldCheck, Heart, User, Check, Alert
 
 export default function HomeClient() {
   const products = productsData as Product[];
-  const featuredProducts = products.filter(p => p.tag === "HOT" || p.tag === "NEW").slice(0, 3);
+  const featuredProducts = products.filter((p) => p.tag === "HOT" || p.tag === "NEW").slice(0, 3);
 
   // Form State
   const [formData, setFormData] = useState({
@@ -34,7 +34,7 @@ export default function HomeClient() {
       setSubmitStatus("error");
       return;
     }
-    
+
     setIsSubmitting(true);
     // Simulate API call
     setTimeout(() => {
@@ -55,21 +55,24 @@ export default function HomeClient() {
       author: "Anh Tuấn Minh",
       role: "Giám đốc điều hành, Hà Nội",
       rating: 5,
-      comment: "Chiếc đệm cao su Amani thực sự làm thay đổi cuộc sống của tôi. Lưng không còn mỏi, ngủ sâu giấc hơn rất nhiều.",
+      comment:
+        "Chiếc đệm cao su Amani thực sự làm thay đổi cuộc sống của tôi. Lưng không còn mỏi, ngủ sâu giấc hơn rất nhiều.",
     },
     {
       id: 2,
       author: "Chị Mai Phương",
       role: "Kiến trúc sư, TP.HCM",
       rating: 5,
-      comment: "Thiết kế đệm cực kỳ tinh tế, vải bọc Tencel mát lịm rất hợp với khí hậu nóng ẩm ở Việt Nam. Khuyên mọi người nên dùng.",
+      comment:
+        "Thiết kế đệm cực kỳ tinh tế, vải bọc Tencel mát lịm rất hợp với khí hậu nóng ẩm ở Việt Nam. Khuyên mọi người nên dùng.",
     },
     {
       id: 3,
       author: "Cô Lan Anh",
       role: "Giáo viên về hưu, Đà Nẵng",
       rating: 5,
-      comment: "Tôi bị mất ngủ thâm niên, mua đệm Hybrid của hãng nằm êm hẳn, lò xo túi độc lập không hề gây tiếng động hay rung lắc khi chồng tôi xoay người.",
+      comment:
+        "Tôi bị mất ngủ thâm niên, mua đệm Hybrid của hãng nằm êm hẳn, lò xo túi độc lập không hề gây tiếng động hay rung lắc khi chồng tôi xoay người.",
     },
   ];
 
@@ -82,7 +85,7 @@ export default function HomeClient() {
         <section className="relative overflow-hidden bg-primary text-white py-28 sm:py-36">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(197,168,128,0.15),transparent_45%)]" />
           <div className="absolute -bottom-48 -left-48 w-96 h-96 bg-accent/10 rounded-full blur-3xl" />
-          
+
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
               {/* Left Content */}
@@ -91,16 +94,17 @@ export default function HomeClient() {
                   <Sparkles className="w-4 h-4" />
                   <span>Chăm sóc sức khỏe giấc ngủ Việt</span>
                 </div>
-                
+
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
                   Giấc Ngủ Hoàn Mỹ <br />
                   <span className="text-accent font-serif font-normal italic">Chuẩn Resort 5 Sao</span>
                 </h1>
-                
+
                 <p className="text-base sm:text-lg text-slate-300 max-w-xl mx-auto lg:mx-0 leading-relaxed font-light">
-                  Kiến tạo không gian nghỉ ngơi thư thái đỉnh cao với các dòng chăn ga gối đệm cao cấp sử dụng nguồn vật liệu thiên nhiên chất lượng thượng hạng.
+                  Kiến tạo không gian nghỉ ngơi thư thái đỉnh cao với các dòng chăn ga gối đệm cao cấp sử dụng nguồn vật
+                  liệu thiên nhiên chất lượng thượng hạng.
                 </p>
-                
+
                 <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
                   <Link
                     href="/collection"
@@ -117,7 +121,7 @@ export default function HomeClient() {
                   </a>
                 </div>
               </div>
-              
+
               {/* Right Side Image Representation */}
               <div className="lg:col-span-5 relative">
                 <div className="relative aspect-[4/3] w-full rounded-2xl overflow-hidden shadow-2xl border border-white/10">
@@ -155,7 +159,7 @@ export default function HomeClient() {
                 { title: "100% Thiên Nhiên", desc: "Cao su & bông hữu cơ lành tính" },
                 { title: "Nâng Đỡ Đa Vùng", desc: "Giảm áp lực cột sống lưng cổ" },
                 { title: "Kháng Khuẩn Tự Nhiên", desc: "Ngăn nấm mốc và mùi ẩm mốc" },
-                { title: "Điều Hòa Nhiệt Độ", desc: "Thoáng khí mát lạnh suốt cả đêm" }
+                { title: "Điều Hòa Nhiệt Độ", desc: "Thoáng khí mát lạnh suốt cả đêm" },
               ].map((item, idx) => (
                 <div key={idx} className="text-center space-y-2 group">
                   <div className="w-10 h-10 rounded-full bg-accent/10 text-accent flex items-center justify-center mx-auto group-hover:bg-accent group-hover:text-white transition-all duration-300">
@@ -173,7 +177,6 @@ export default function HomeClient() {
         <section className="py-24 bg-background-warm">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-2xl mx-auto mb-16 space-y-4">
-              <span className="text-xs font-bold uppercase tracking-widest text-accent">Sản phẩm bán chạy</span>
               <h2 className="text-3xl font-extrabold text-primary tracking-tight">Sản Phẩm Nổi Bật</h2>
               <div className="w-12 h-1 bg-accent mx-auto rounded-full" />
               <p className="text-sm text-muted">
@@ -210,21 +213,21 @@ export default function HomeClient() {
                   <h2 className="text-3xl font-extrabold text-primary tracking-tight">Tại Sao Nên Chọn Giấc Ngủ Êm?</h2>
                   <div className="w-12 h-1 bg-accent mr-auto ml-auto lg:ml-0 rounded-full" />
                 </div>
-                
+
                 <div className="space-y-8">
                   {[
                     {
                       title: "Nguyên liệu sạch hữu cơ 100%",
-                      desc: "Toàn bộ đệm cao su và ga gối của chúng tôi sử dụng 100% mủ cao su thiên nhiên và sợi bông dệt hữu cơ an toàn cho da em bé."
+                      desc: "Toàn bộ đệm cao su và ga gối của chúng tôi sử dụng 100% mủ cao su thiên nhiên và sợi bông dệt hữu cơ an toàn cho da em bé.",
                     },
                     {
                       title: "Thiết kế nâng đỡ xương khớp chuyên sâu",
-                      desc: "Từng vùng trên bề mặt đệm được phân bổ mật độ lò xo túi và cao su tối ưu giúp duy trì đường cong cột sống tự nhiên ở mọi tư thế."
+                      desc: "Từng vùng trên bề mặt đệm được phân bổ mật độ lò xo túi và cao su tối ưu giúp duy trì đường cong cột sống tự nhiên ở mọi tư thế.",
                     },
                     {
                       title: "Lớp mát làm tản nhiệt Gel thông minh",
-                      desc: "Giải quyết triệt để vấn đề hầm nóng đặc trưng của đệm foam thông thường nhờ gel mát tản nhiệt và áo bọc tencel hút ẩm."
-                    }
+                      desc: "Giải quyết triệt để vấn đề hầm nóng đặc trưng của đệm foam thông thường nhờ gel mát tản nhiệt và áo bọc tencel hút ẩm.",
+                    },
                   ].map((reason, idx) => (
                     <div key={idx} className="flex space-x-4">
                       <div className="flex-shrink-0 w-8 h-8 rounded-full bg-accent/10 text-accent flex items-center justify-center text-xs font-bold">
@@ -272,10 +275,14 @@ export default function HomeClient() {
                 <h2 className="text-3xl font-extrabold text-primary tracking-tight">Thương Hiệu AMANI Home & Living</h2>
                 <div className="w-12 h-1 bg-accent mr-auto ml-auto lg:ml-0 rounded-full" />
                 <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-light">
-                  Khởi nguồn từ mong muốn mang những giấc ngủ êm sâu như ở khu nghỉ dưỡng 5 sao về ngôi nhà của bạn, AMANI Home & Living đã ra đời. Chúng tôi tin rằng, một chiếc đệm tốt không chỉ là nơi ngả lưng, mà là cội nguồn của năng lượng sống và sức khỏe trường thọ. 
+                  Khởi nguồn từ mong muốn mang những giấc ngủ êm sâu như ở khu nghỉ dưỡng 5 sao về ngôi nhà của bạn,
+                  AMANI Home & Living đã ra đời. Chúng tôi tin rằng, một chiếc đệm tốt không chỉ là nơi ngả lưng, mà là
+                  cội nguồn của năng lượng sống và sức khỏe trường thọ.
                 </p>
                 <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-light">
-                  Mỗi dòng sản phẩm đệm lò xo, cao su hay chăn ga gối của AMANI đều được sản xuất tỉ mỉ từ vật liệu sinh học tự nhiên thân thiện với môi trường, mang lại sự êm mát, sang trọng và thư giãn trọn vẹn từng khoảnh khắc.
+                  Mỗi dòng sản phẩm đệm lò xo, cao su hay chăn ga gối của AMANI đều được sản xuất tỉ mỉ từ vật liệu sinh
+                  học tự nhiên thân thiện với môi trường, mang lại sự êm mát, sang trọng và thư giãn trọn vẹn từng
+                  khoảnh khắc.
                 </p>
               </div>
             </div>
@@ -286,23 +293,26 @@ export default function HomeClient() {
         <section className="py-24 bg-white border-b border-accent/10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-2xl mx-auto mb-16 space-y-4">
-              <span className="text-xs font-bold uppercase tracking-widest text-accent font-sans">Đánh giá thực tế</span>
+              <span className="text-xs font-bold uppercase tracking-widest text-accent font-sans">
+                Đánh giá thực tế
+              </span>
               <h2 className="text-3xl font-extrabold text-primary tracking-tight">Ý Kiến Từ Khách Hàng</h2>
               <div className="w-12 h-1 bg-accent mx-auto rounded-full" />
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {reviews.map((rev) => (
-                <div key={rev.id} className="bg-background-warm p-8 rounded-2xl border border-accent/10 flex flex-col justify-between shadow-sm">
+                <div
+                  key={rev.id}
+                  className="bg-background-warm p-8 rounded-2xl border border-accent/10 flex flex-col justify-between shadow-sm"
+                >
                   <div className="space-y-4">
                     <div className="flex items-center space-x-1">
                       {[...Array(rev.rating)].map((_, i) => (
                         <Star key={i} className="w-4 h-4 text-accent fill-current" />
                       ))}
                     </div>
-                    <p className="text-sm text-primary leading-relaxed font-light italic">
-                      "{rev.comment}"
-                    </p>
+                    <p className="text-sm text-primary leading-relaxed font-light italic">"{rev.comment}"</p>
                   </div>
                   <div className="mt-6 pt-4 border-t border-accent/10 flex items-center space-x-3">
                     <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center text-accent">
@@ -328,14 +338,20 @@ export default function HomeClient() {
                 <div className="space-y-4 mb-8">
                   <h3 className="text-2xl font-bold text-primary">Tư Vấn Giấc Ngủ Miễn Phí</h3>
                   <p className="text-xs sm:text-sm text-muted">
-                    Để lại thông tin dưới đây, tư vấn viên am hiểu sâu sắc về xương khớp của chúng tôi sẽ gọi lại ngay lập tức để giúp bạn tìm ra chiếc đệm lý tưởng.
+                    Để lại thông tin dưới đây, tư vấn viên am hiểu sâu sắc về xương khớp của chúng tôi sẽ gọi lại ngay
+                    lập tức để giúp bạn tìm ra chiếc đệm lý tưởng.
                   </p>
                 </div>
 
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div>
-                      <label htmlFor="name" className="block text-xs font-bold uppercase tracking-wider text-primary mb-2">Họ và tên *</label>
+                      <label
+                        htmlFor="name"
+                        className="block text-xs font-bold uppercase tracking-wider text-primary mb-2"
+                      >
+                        Họ và tên *
+                      </label>
                       <input
                         type="text"
                         name="name"
@@ -348,7 +364,12 @@ export default function HomeClient() {
                       />
                     </div>
                     <div>
-                      <label htmlFor="phone" className="block text-xs font-bold uppercase tracking-wider text-primary mb-2">Số điện thoại *</label>
+                      <label
+                        htmlFor="phone"
+                        className="block text-xs font-bold uppercase tracking-wider text-primary mb-2"
+                      >
+                        Số điện thoại *
+                      </label>
                       <input
                         type="tel"
                         name="phone"
@@ -363,7 +384,12 @@ export default function HomeClient() {
                   </div>
 
                   <div>
-                    <label htmlFor="category" className="block text-xs font-bold uppercase tracking-wider text-primary mb-2">Sản phẩm bạn quan tâm</label>
+                    <label
+                      htmlFor="category"
+                      className="block text-xs font-bold uppercase tracking-wider text-primary mb-2"
+                    >
+                      Sản phẩm bạn quan tâm
+                    </label>
                     <select
                       name="category"
                       id="category"
@@ -380,7 +406,12 @@ export default function HomeClient() {
                   </div>
 
                   <div>
-                    <label htmlFor="message" className="block text-xs font-bold uppercase tracking-wider text-primary mb-2">Ghi chú hoặc yêu cầu riêng</label>
+                    <label
+                      htmlFor="message"
+                      className="block text-xs font-bold uppercase tracking-wider text-primary mb-2"
+                    >
+                      Ghi chú hoặc yêu cầu riêng
+                    </label>
                     <textarea
                       name="message"
                       id="message"
@@ -421,7 +452,8 @@ export default function HomeClient() {
                 <div className="space-y-4">
                   <h3 className="text-xl font-bold text-accent tracking-wide uppercase">Hệ Thống Showroom</h3>
                   <p className="text-xs text-slate-300 font-light leading-relaxed">
-                    Đến trực tiếp các showroom của chúng tôi để nằm thử đệm và nhận sự tư vấn chuyên sâu về tư thế ngủ hoàn toàn miễn phí.
+                    Đến trực tiếp các showroom của chúng tôi để nằm thử đệm và nhận sự tư vấn chuyên sâu về tư thế ngủ
+                    hoàn toàn miễn phí.
                   </p>
                 </div>
 
@@ -432,14 +464,22 @@ export default function HomeClient() {
                     <div className="w-8 h-8 rounded-full bg-accent text-primary flex items-center justify-center animate-bounce shadow-lg shadow-accent/50">
                       <MapPinIcon />
                     </div>
-                    <span className="text-[10px] uppercase font-bold tracking-widest text-accent mt-2 bg-primary/90 px-2 py-0.5 rounded border border-accent/20">Giấc Ngủ Êm</span>
+                    <span className="text-[10px] uppercase font-bold tracking-widest text-accent mt-2 bg-primary/90 px-2 py-0.5 rounded border border-accent/20">
+                      Giấc Ngủ Êm
+                    </span>
                   </div>
                 </div>
 
                 <div className="space-y-3 text-xs text-slate-300 border-t border-white/10 pt-6">
-                  <p><strong className="text-white">Địa chỉ:</strong> 208b Yết Kiêu, Tân Hưng, Hải Phòng</p>
-                  <p><strong className="text-white">Hotline đặt hàng:</strong> 0978.358.654</p>
-                  <p><strong className="text-white">Giờ mở cửa:</strong> 08:30 – 21:30 (Mở cả tuần)</p>
+                  <p>
+                    <strong className="text-white">Địa chỉ:</strong> 208b Yết Kiêu, Tân Hưng, Hải Phòng
+                  </p>
+                  <p>
+                    <strong className="text-white">Hotline đặt hàng:</strong> 0978.358.654
+                  </p>
+                  <p>
+                    <strong className="text-white">Giờ mở cửa:</strong> 08:30 – 21:30 (Mở cả tuần)
+                  </p>
                 </div>
               </div>
             </div>
@@ -454,9 +494,20 @@ export default function HomeClient() {
 
 function MapPinIcon() {
   return (
-    <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <svg
+      className="w-4 h-4"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2.5"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-      <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+      />
     </svg>
   );
 }
