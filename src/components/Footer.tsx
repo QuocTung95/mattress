@@ -74,7 +74,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/1RdF5Xciau/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noreferrer"
                 className="p-2 rounded-full bg-white/5 hover:bg-accent hover:text-primary transition-all duration-300"
